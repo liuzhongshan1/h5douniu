@@ -1,0 +1,1210 @@
+[ 2017-09-09T11:04:54+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.063444s][吞吐率：15.76req/s] [内存消耗：3,033.47kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:04:54+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.068323s][吞吐率：14.64req/s] [内存消耗：3,033.52kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:04:56+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.069300s][吞吐率：14.43req/s] [内存消耗：3,033.33kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0l2coq54l0hbs6afflpajt3c83',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A343 MicroMessenger/6.5.15 NetType/WIFI Language/zh_CN',
+  'connection' => 'close',
+  'content-length' => '5',
+  'origin' => 'http://33.huaherb.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 366 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:04:59+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showall.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showall.html [运行时间：0.065395s][吞吐率：15.29req/s] [内存消耗：3,032.74kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A343 MicroMessenger/6.5.15 NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=0l2coq54l0hbs6afflpajt3c83',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://33.huaherb.com',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showall[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 366 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:00+08:00 ] 172.31.40.146 118.190.144.81 GET /game.php/login/comeout/id/366
+[ log ] 33.huaherb.com/game.php/login/comeout/id/366 [运行时间：0.038066s][吞吐率：26.27req/s] [内存消耗：2,357.08kb] [文件加载：65]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'comeout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '366',
+)
+[ info ] [ RUN ] app\game\controller\Login->comeout[ C:\phpStudy\WWW\douniu\application\game\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 366 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` <> 366  AND `online` = 1  AND `room_id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `t_member`  SET `online`=0,`lastcomeouttime`=1504926300  WHERE  `id` = 366 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:00+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/comeout.html
+[ log ] 33.huaherb.com/game.php/douniuplay/comeout.html [运行时间：0.065396s][吞吐率：15.29req/s] [内存消耗：2,996.15kb] [文件加载：119]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'comeout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '12',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'memberid' => '366',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->comeout[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 366 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` <> 366  AND `online` = 1  AND `room_id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `t_member`  SET `online`=0,`lastcomeouttime`=1504926300  WHERE  `id` = 366 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:04+08:00 ] 172.31.40.146 117.185.27.115 GET /game.php/douniuplay/index/room_id/418.html
+[ log ] 33.huaherb.com/game.php/douniuplay/index/room_id/418.html [运行时间：0.024401s][吞吐率：40.98req/s] [内存消耗：1,688.25kb] [文件加载：57]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.27.400 QQBrowser/9.0.2524.400',
+)
+[ info ] [ PARAM ] array (
+  'room_id' => '418',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:10+08:00 ] 172.31.40.146 117.185.27.115 GET /game.php/login/index.html
+[ log ] 33.huaherb.com/game.php/login/index.html [运行时间：0.066371s][吞吐率：15.07req/s] [内存消耗：2,479.58kb] [文件加载：117]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'PHPSESSID=ipgst24i29o7c77vbm7pls0m47',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.27.400 QQBrowser/9.0.2524.400',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\game\controller\Login->index[ C:\phpStudy\WWW\douniu\application\game\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:13+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.065396s][吞吐率：15.29req/s] [内存消耗：3,033.52kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:13+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.064419s][吞吐率：15.52req/s] [内存消耗：3,033.52kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:13+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.065396s][吞吐率：15.29req/s] [内存消耗：3,033.52kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:14+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.064420s][吞吐率：15.52req/s] [内存消耗：3,033.52kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:15+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.065395s][吞吐率：15.29req/s] [内存消耗：3,033.52kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.015617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:16+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.064420s][吞吐率：15.52req/s] [内存消耗：3,033.52kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015617s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:17+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.062467s][吞吐率：16.01req/s] [内存消耗：3,033.52kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.015617s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:17+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.059539s][吞吐率：16.80req/s] [内存消耗：3,033.52kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:17+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.065396s][吞吐率：15.29req/s] [内存消耗：3,033.52kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:17+08:00 ] 172.31.40.146 222.135.219.142 POST /game.php/douniuplay/showone.html
+[ log ] 33.huaherb.com/game.php/douniuplay/showone.html [运行时间：0.069299s][吞吐率：14.43req/s] [内存消耗：3,033.52kb] [文件加载：116]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplay',
+    2 => 'showone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=eot4qkunj74sfcsdiuvfh19eb1',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'referer' => 'http://33.huaherb.com/game.php/douniuplay/index/room_id/418.html?from=singlemessage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://33.huaherb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplay->showone[ C:\phpStudy\WWW\douniu\application\game\controller\Douniuplay.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `gamestatus` FROM `t_room` WHERE  `id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:05:24+08:00 ] 172.31.40.146 118.190.144.81 GET /game.php/login/comeout/id/544
+[ log ] 33.huaherb.com/game.php/login/comeout/id/544 [运行时间：0.053683s][吞吐率：18.63req/s] [内存消耗：2,435.61kb] [文件加载：66]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'comeout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'host' => '33.huaherb.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '544',
+)
+[ info ] [ RUN ] app\game\controller\Login->comeout[ C:\phpStudy\WWW\douniu\application\game\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 544 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` <> 544  AND `online` = 1  AND `room_id` = 418 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `t_room`  SET `islock`=0,`gamestatus`=0  WHERE  `id` = 418 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `t_member`  SET `room_id`=0,`gamestatus`=0  WHERE  `room_id` = 418 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `t_member`  SET `online`=0,`lastcomeouttime`=1504926324  WHERE  `id` = 544 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:55:02+08:00 ] 172.31.40.146 101.226.125.119 GET /
+[ log ] 33.huaherb.com/ [运行时间：0.069295s][吞吐率：14.43req/s] [内存消耗：2,427.23kb] [文件加载：62]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '171.113.254.135',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Le X620 Build/HEXCNFN5902606111S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043409 Safari/537.36 MicroMessenger/6.5.7.1041 NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => '33.huaherb.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/sharpp,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpStudy\WWW\douniu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_nav` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 0 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 1 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 2 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 3 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 5 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 6 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 4 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_ad` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_ad` WHERE  `status` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_product` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_product` WHERE  `is_top` = 1 LIMIT 2 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `t_product` WHERE  `is_rec` = 1 LIMIT 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_category` [ RunTime:0.015615s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `status` = 1  AND `pid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `status` = 1  AND `pid` = 0 LIMIT 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `pid` = 348 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `pid` = 353 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `pid` = 354 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `pid` = 355 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_product` WHERE  `status` = 1  AND `category_id` IN (353,354,355,348) LIMIT 8 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `pid` = 356 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_product` WHERE  `status` = 1  AND `category_id` IN (356) LIMIT 8 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:55:02+08:00 ] 172.31.40.146 101.226.125.119 GET /game.php
+[ log ] 33.huaherb.com/game.php [运行时间：0.032208s][吞吐率：31.05req/s] [内存消耗：1,564.96kb] [文件加载：57]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '171.113.254.135',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Le X620 Build/HEXCNFN5902606111S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043409 Safari/537.36 MicroMessenger/6.5.7.1041 NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => '33.huaherb.com',
+  'cookie' => 'PHPSESSID=bvjbnar82p3er015hq1230b2q3',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/sharpp,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-09T11:55:02+08:00 ] 172.31.40.146 101.226.125.119 GET /game.php/login/index.html
+[ log ] 33.huaherb.com/game.php/login/index.html [运行时间：0.054655s][吞吐率：18.30req/s] [内存消耗：2,481.18kb] [文件加载：117]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '171.113.254.135',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Le X620 Build/HEXCNFN5902606111S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043409 Safari/537.36 MicroMessenger/6.5.7.1041 NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => '33.huaherb.com',
+  'cookie' => 'PHPSESSID=bvjbnar82p3er015hq1230b2q3',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/sharpp,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\game\controller\Login->index[ C:\phpStudy\WWW\douniu\application\game\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-09T11:55:05+08:00 ] 172.31.40.146 101.226.125.119 GET /game.php/login/weixinloginback.html?code=011gYAnc13Wctr0hLXpc1ahtnc1gYAnI&state=c008e1c62de543653b2a9436dfbb0089
+[ log ] 33.huaherb.com/game.php/login/weixinloginback.html?code=011gYAnc13Wctr0hLXpc1ahtnc1gYAnI&state=c008e1c62de543653b2a9436dfbb0089 [运行时间：0.818856s][吞吐率：1.22req/s] [内存消耗：3,776.06kb] [文件加载：159]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'weixinloginback',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '171.113.254.135',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Le X620 Build/HEXCNFN5902606111S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043409 Safari/537.36 MicroMessenger/6.5.7.1041 NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => '33.huaherb.com',
+  'cookie' => 'PHPSESSID=bvjbnar82p3er015hq1230b2q3',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/sharpp,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011gYAnc13Wctr0hLXpc1ahtnc1gYAnI',
+  'state' => 'c008e1c62de543653b2a9436dfbb0089',
+)
+[ info ] [ RUN ] app\game\controller\Login->weixinloginback[ C:\phpStudy\WWW\douniu\application\game\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `openid` = 'o620yxD6K5XZGBthSVCjp3Orfa1g' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `t_member` (`openid` , `nickname` , `photo`) VALUES ('o620yxD6K5XZGBthSVCjp3Orfa1g' , '遇见' , 'http://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eria3k3tckFUr0qicd2ZnIq6tyL4eYD0OIjxz1MvgaXpZsgER3ibiax3ibzUrQ2ChJN5X9jpW36mQjBzvA/0') [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:55:05+08:00 ] 172.31.40.146 101.226.125.119 GET /game.php/index/index.html
+[ log ] 33.huaherb.com/game.php/index/index.html [运行时间：0.038063s][吞吐率：26.27req/s] [内存消耗：1,524.00kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '171.113.254.135',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Le X620 Build/HEXCNFN5902606111S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043409 Safari/537.36 MicroMessenger/6.5.7.1041 NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => '33.huaherb.com',
+  'cookie' => 'PHPSESSID=bvjbnar82p3er015hq1230b2q3',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/sharpp,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-09T11:55:05+08:00 ] 172.31.40.146 101.226.125.119 GET /game.php
+[ log ] 33.huaherb.com/game.php [运行时间：0.058559s][吞吐率：17.08req/s] [内存消耗：2,712.34kb] [文件加载：113]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '171.113.254.135',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Le X620 Build/HEXCNFN5902606111S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043409 Safari/537.36 MicroMessenger/6.5.7.1041 NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => '33.huaherb.com',
+  'cookie' => 'PHPSESSID=bvjbnar82p3er015hq1230b2q3',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/sharpp,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Index->index[ C:\phpStudy\WWW\douniu\application\game\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\WWW\douniu/application/game\view\index\index69.html [ array (
+  0 => 'memberinfo',
+  1 => 'jsconfig',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.015616s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 546 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:55:13+08:00 ] 172.31.40.146 117.185.27.115 GET /
+[ log ] 33.huaherb.com/ [运行时间：0.067342s][吞吐率：14.85req/s] [内存消耗：2,426.72kb] [文件加载：62]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpStudy\WWW\douniu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=douniu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_nav` [ RunTime:0.015616s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 0 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 1 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 2 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 3 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 5 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 6 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_nav` WHERE  `pid` = 4 ORDER BY `sort` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_ad` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_ad` WHERE  `status` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_product` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_product` WHERE  `is_top` = 1 LIMIT 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_product` WHERE  `is_rec` = 1 LIMIT 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `status` = 1  AND `pid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `status` = 1  AND `pid` = 0 LIMIT 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `pid` = 348 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `pid` = 353 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `pid` = 354 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `pid` = 355 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_product` WHERE  `status` = 1  AND `category_id` IN (353,354,355,348) LIMIT 8 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_category` WHERE  `pid` = 356 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_product` WHERE  `status` = 1  AND `category_id` IN (356) LIMIT 8 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-09T11:55:16+08:00 ] 172.31.40.146 117.185.27.115 GET /game.php
+[ log ] 33.huaherb.com/game.php [运行时间：0.052703s][吞吐率：18.97req/s] [内存消耗：1,564.23kb] [文件加载：57]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'PHPSESSID=v3sk5nl92rvhr55vlm1e81sq22',
+  'referer' => 'http://33.huaherb.com/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-09T11:55:17+08:00 ] 172.31.40.146 117.185.27.115 GET /game.php/login/index.html
+[ log ] 33.huaherb.com/game.php/login/index.html [运行时间：0.065391s][吞吐率：15.29req/s] [内存消耗：2,479.38kb] [文件加载：117]
+[ info ] [ LANG ] C:\phpStudy\WWW\douniu\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '33.huaherb.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'PHPSESSID=v3sk5nl92rvhr55vlm1e81sq22',
+  'referer' => 'http://33.huaherb.com/game.php',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\game\controller\Login->index[ C:\phpStudy\WWW\douniu\application\game\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
